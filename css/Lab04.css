@@ -97,10 +97,6 @@ input[type=color] {
   height: 1.75em;
 }
 
-input[type=number]{
-  width: 15%;
-}
-
 select {
   height: 2em;
 }
