@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+
+select,button{
+  width: 300px;
+}
+
+table{
+  border: 0;
+  margin: 0 auto;
+}
+
+th{
+  background-color: grey;
+  color: whitesmoke;
+}
+
+tr:nth-child(odd){
+  background-color: lightgrey;
+}
+
+td{
+  padding: 0 0.5em;
+}
