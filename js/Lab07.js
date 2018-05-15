@@ -265,6 +265,14 @@ in2.onchange = function creT() {
   num = parseInt(contr.in2.value);                        //change num after change select2 !!!!
 
   if (num>0&contr.in1.value!="") {
+    if (contr.attrShow) {
+    for (var i = 0; i < contr.attrIn.length; i++) {
+      contr.attrIn[i].style.display = "none";
+    }
+
+  } else {
+
+  }
     contr.attrShow=true;
     contr.attrIn = new Array(num);
     contr.attrValCheck = new Array(num);
